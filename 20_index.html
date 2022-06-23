@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <a href="#" class="abc" onclick = "alert('Hello')" > Sample Inline Example </a>
+      <p>Hello</p>
+    <button onclick="sum()">Sum of two number is</button>
+    <p id="demo"></p>
+
+    <p id="har">Hello</p>
+
+    <div class="main-div">
+      <div class="one">
+        <p>One Child</p>
+      </div>
+      <div class="two">
+        <p>Two Child</p>
+      </div>
+            <div class="three">
+        <p>Three Child</p>
+      </div>
+    </div>
+
+    <script>
+      function sum() {
+          alert('Sample Example of Calling Function')
+      }
+
+      const takref = document.getElementById('har')
+      takref.onclick = function(){
+        alert("Hiiiiiiiiiiiiiiiiiii")
+      }
+    </script>
+  </body>
+</html>
