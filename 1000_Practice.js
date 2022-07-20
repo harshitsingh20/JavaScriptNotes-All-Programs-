@@ -12,10 +12,12 @@
 
 
 
-// Program 2
+// Program 2.
 
 const prompt = require('prompt-sync')({sigint:true})
 food = prompt('How much for food:- ')
 foodPercentage = 0.2
 tipAmount = food * foodPercentage
 console.log(tipAmount);
+
+// Important Points
