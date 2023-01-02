@@ -9,7 +9,7 @@ var $myName = "Web Developer";  // 3) Bu using Dolar sign ( $ ) at the starting
 console.log(_myName);
 
 
-// How many ways we cant start the variable name
+// How many ways we can't start the variable name
 
 // 1) By using @ at the starting and ending
 // 20 By using % at the starting and ending

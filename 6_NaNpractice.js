@@ -19,7 +19,7 @@ console.log(isNaN(Ank));
 
 // Compare NaN === NaN
 
-console.log(NaN === NaN);       // Same output in == also. 
+console.log(NaN === NaN);       // Same output in == also.  False
 
 
 // Number.NaN === NaN
